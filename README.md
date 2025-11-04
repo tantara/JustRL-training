@@ -10,10 +10,13 @@
   <a href="https://github.com/thunlp/JustRL" style="margin: 2px;">
     <img alt="Code" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="display: inline-block; vertical-align: middle;"/>
   </a>
-  <a href="https://huggingface.co/thunlp/JustRL-Nemotron-1.5B" style="margin: 2px;">
-    <img alt="Hugging Face" src="https://img.shields.io/badge/JustRL-fcd022?style=for-the-badge&logo=huggingface&logoColor=000&labelColor" style="display: inline-block; vertical-align: middle;"/>
+  <a href="https://huggingface.co/thunlp/JustRL-DeepSeek-1.5B" style="margin: 2px;">
+    <img alt="Hugging Face" src="https://img.shields.io/badge/JustRL_DeepSeek_1.5B-fcd022?style=for-the-badge&logo=huggingface&logoColor=000&labelColor" style="display: inline-block; vertical-align: middle;"/>
   </a>
-  <a href="https://relieved-cafe-fe1.notion.site/JustRL-Scaling-a-1-5B-LLM-with-a-Simple-RL-Recipe-24f6198b0b6b80e48e74f519bfdaf0a8" target="_blank" style="margin: 2px;">
+  <a href="https://huggingface.co/thunlp/JustRL-Nemotron-1.5B" style="margin: 2px;">
+    <img alt="Hugging Face" src="https://img.shields.io/badge/JustRL_Nemotron_1.5B-fcd022?style=for-the-badge&logo=huggingface&logoColor=000&labelColor" style="display: inline-block; vertical-align: middle;"/>
+  </a>
+  <a href="https://relieved-cafe-fe1.notion.site/JustRL-Scaling-a-1-5B-LLM-with-a-Simple-RL-Recipe-24f6198b0b6b80e48e74f519bfdaf0a8?pvs=74" target="_blank" style="margin: 2px;">
     <img alt="Notion" src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white" style="display: inline-block; vertical-align: middle;"/>
   </a>
 </div>
