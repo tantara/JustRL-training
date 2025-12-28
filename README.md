@@ -24,6 +24,42 @@
   </a>
 </div>
 
+<br>
+
+> ⚠️ **WARNING & DISCLAIMER**
+> 
+> **This project is still in active development.** The training code and implementation are experimental and may contain bugs, incomplete features, or breaking changes.
+
+## 🚀 Quick Start
+
+### Training
+
+```bash
+# Prepare the dataset
+git clone https://github.com/tantara/JustRL-training
+cd JustRL-training/JustRL/training
+python prepare_data.py --output_path ./data/dapo_math_17k.parquet
+
+# Run training with default settings (32 GPUs: 4 nodes × 8 GPUs)
+python train.py \
+    --model_name deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B \
+    --data_path ./data/dapo_math_17k.parquet \
+    --max_steps 4000 \
+    --wandb_project justrl-training \
+    --wandb_entity your-entity
+
+# For smaller setups (e.g., 8 GPUs), adjust batch size accordingly
+python train.py \
+    --model_name deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B \
+    --data_path ./data/dapo_math_17k.parquet \
+    --train_batch_size 64 \
+    --n_gpus_per_node 8 \
+    --nnodes 1 \
+    --max_steps 4000
+```
+
+<br>
+
 ## 📰 Overview
 
 **JustRL** demonstrates that competitive reinforcement learning performance for small language models doesn't require complex multi-stage pipelines or dynamic schedules. Using a minimal recipe with single-stage training and fixed hyperparameters, we achieve state-of-the-art results on mathematical reasoning tasks. This repository contains a lightweight evaluation script to reproduce evaluation results for **JustRL** models on nine challenging math benchmarks.
