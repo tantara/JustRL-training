@@ -1,0 +1,12 @@
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.14.0
+numpy>=1.24.0
+tqdm>=4.65.0
+accelerate>=0.20.0
+pandas>=2.0.0
+pyarrow>=10.0.0
+# veRL - install from GitHub or PyPI
+# pip install verl
+# or: pip install git+https://github.com/volcengine/verl.git
+
